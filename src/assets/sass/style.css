@@ -1,0 +1,50 @@
+header .top-bar {
+  background-color: #006045;
+}
+header .middle-bar:hover {
+  cursor: pointer;
+}
+header .middle-bar i {
+  color: #006045;
+}
+header .middle-bar span {
+  transition: color 0.7s ease-in-out;
+}
+header .middle-bar span:hover {
+  color: #006045 !important;
+}
+header nav i:hover {
+  color: #006045 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  header .top-bar .icons {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .top-bar .icons {
+    display: none !important;
+  }
+  header nav .menu {
+    justify-content: center;
+  }
+  header nav i {
+    display: none !important;
+  }
+  header .order {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  header .top-bar,
+  header .middle-bar,
+  header .nav-icons,
+  header hr,
+  header i {
+    display: none !important;
+  }
+  header .menu {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
