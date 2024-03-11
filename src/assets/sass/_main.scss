@@ -23,3 +23,31 @@ header {
     }
   }
 }
+
+// Banner
+#banner {
+  .item {
+    background-color: $color_main2;
+    .wrapper {
+      height: 400px;
+    }
+    &:nth-child(1) {
+      a {
+        background-color: $color_main3;
+        transition: background-color 0.7s ease-in-out;
+        &:hover {
+          background-color: $color_main1;
+        }
+      }
+    }
+    &:nth-child(2) {
+      background-color: $color_main3;
+    }
+    &:nth-child(3) {
+      background-image: url(../images/banner-man-654756d877ca21699174142.webp);
+      background-repeat: no-repeat;
+      background-position-x: right;
+      height: 650px;
+    }
+  }
+}

@@ -17,6 +17,29 @@ header nav i:hover {
   color: #006045 !important;
 }
 
+#banner .item {
+  background-color: #62CDFF;
+}
+#banner .item .wrapper {
+  height: 400px;
+}
+#banner .item:nth-child(1) a {
+  background-color: #f4f300;
+  transition: background-color 0.7s ease-in-out;
+}
+#banner .item:nth-child(1) a:hover {
+  background-color: #006045;
+}
+#banner .item:nth-child(2) {
+  background-color: #f4f300;
+}
+#banner .item:nth-child(3) {
+  background-image: url(../images/banner-man-654756d877ca21699174142.webp);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 650px;
+}
+
 @media only screen and (max-width: 992px) {
   header .top-bar .icons {
     display: none !important;
